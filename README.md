@@ -1,2 +1,2 @@
 # portfolio-for-lawyer
-MERN
+React.JS
