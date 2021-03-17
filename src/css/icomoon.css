@@ -1,0 +1,122 @@
+
+
+
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?clouq6');
+    src:  url('../fonts/icomoon.eot?clouq6#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?clouq6') format('truetype'),
+      url('../fonts/icomoon.woff?clouq6') format('woff'),
+      url('../fonts/icomoon.svg?clouq6#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }
+  
+  [class^="icon-"]:before, [class*=" icon-"]:before,
+  [class^="icon-"]:after, [class*=" icon-"]:after {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-size: 60px;
+    font-style: normal;
+  }
+  
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: "icomoon";
+      src: url("../fonts/icomoon.svg#icomoon") format("svg");
+    }
+  }
+  
+  .icon-f100:before {
+    content: "\f100";
+  }
+  .icon-f101:before {
+    content: "\f101";
+  }
+  .icon-f102:before {
+    content: "\f102";
+  }
+  .icon-f103:before {
+    content: "\f103";
+  }
+  .icon-f104:before {
+    content: "\f104";
+  }
+  .icon-f105:before {
+    content: "\f105";
+  }
+  .icon-f106:before {
+    content: "\f106";
+  }
+  .icon-f107:before {
+    content: "\f107";
+  }
+  .icon-f108:before {
+    content: "\f108";
+  }
+  .icon-f109:before {
+    content: "\f109";
+  }
+  .icon-f110:before {
+    content: "\f110";
+  }
+  .icon-f111:before {
+    content: "\f111";
+  }
+  .icon-f112:before {
+    content: "\f112";
+  }
+  .icon-f113:before {
+    content: "\f113";
+  }
+  .icon-f114:before {
+    content: "\f114";
+  }
+  .icon-f115:before {
+    content: "\f115";
+  }
+  .icon-f116:before {
+    content: "\f116";
+  }
+  .icon-f117:before {
+    content: "\f117";
+  }
+  .icon-f118:before {
+    content: "\f118";
+  }
+  .icon-f119:before {
+    content: "\f119";
+  }
+  .icon-f120:before {
+    content: "\f120";
+  }
+  .icon-f121:before {
+    content: "\f121";
+  }
+  .icon-f122:before {
+    content: "\f122";
+  }
+  .icon-f123:before {
+    content: "\f123";
+  }
+  .icon-f124:before {
+    content: "\f124";
+  }
+  .icon-f125:before {
+    content: "\f125";
+  }
+  .icon-f126:before {
+    content: "\f126";
+  }
+  .icon-f127:before {
+    content: "\f127";
+  }
+  .icon-f128:before {
+    content: "\f128";
+  }
+  .icon-f129:before {
+    content: "\f129";
+  }
+  
