@@ -19,7 +19,8 @@ const AboutRomo = ({ subTitle, title, videoId, className, signature, pragraphs,i
                                 channel='youtube'
                                 isOpen={video}
                                 videoId={videoId}
-                                onClose={() => () => setVideo(false)} />
+                                onClose={() => () => setVideo(false)} 
+                            />
                         </div>
                     </div>
                     <div className="col-lg-6">

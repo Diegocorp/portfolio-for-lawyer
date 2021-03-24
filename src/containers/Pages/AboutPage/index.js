@@ -82,7 +82,7 @@ const AboutPage = () => {
             <AboutRomo
                 className="aboutArea aboutAreaStyleTwo"
                 title="Misión"
-                subTitle="Jose Francisco Sandoval"
+                subTitle="Joaquin Jáuregui"
                 pragraphs={aboutText}
                 title2="Visión"
                 subTitle2=""

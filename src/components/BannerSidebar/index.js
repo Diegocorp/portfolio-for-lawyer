@@ -7,7 +7,7 @@ const BannerSidebar = ({ className, image }) => {
         <div style={{ backgroundImage: `url(${image})` }} className={className}>
             <h3><span>25</span> Years of Experience In This Field</h3>
             <div className="btnStyle">
-                <Link to="/contact">Contacto</Link>
+                <Link to="/contact">Contact</Link>
             </div>
         </div>
     )

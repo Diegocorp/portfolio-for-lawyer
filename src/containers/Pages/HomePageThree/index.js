@@ -37,14 +37,14 @@ const heroSliders = [
         title: 'We Fight For Your Justice',
         subTitle: 'As Like A Friend.',
         text: 'The Most Talented Law Frim',
-        button: 'Contacto'
+        button: 'Contact'
     },
     {
         images: 'slideWrapperTwo',
         title: 'We Fight For Your Justice',
         subTitle: 'As Like A Friend.',
         text: 'The Most Talented Law Frim',
-        button: 'Contacto'
+        button: 'Contact'
     },
 ]
 

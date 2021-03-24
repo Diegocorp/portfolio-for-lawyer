@@ -18,7 +18,8 @@ const About = ({ subTitle, title, videoId, className, signature, pragraphs,image
                                 channel='youtube'
                                 isOpen={video}
                                 videoId={videoId}
-                                onClose={() => () => setVideo(false)} />
+                                onClose={() => () => setVideo(false)} 
+                            />
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -29,7 +30,7 @@ const About = ({ subTitle, title, videoId, className, signature, pragraphs,image
                                 <p key={i}>{pragraph.text}</p>
                             ))}
                             <div className="btnStyle">
-                                <Link to='/about'>MÁS DE NOSOTROS</Link>
+                                <Link to='/about'>More about us</Link>
                             </div>
                             {signature && <div className="signature">
                                 <img src={signature} alt="" />

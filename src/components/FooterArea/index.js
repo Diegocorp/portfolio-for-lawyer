@@ -65,7 +65,7 @@ const FooterArea = () => {
                     <div className="footerBottomContent">
                         <div className="row">
                             <div className="col-md-8 col-sm-10 col-12">
-                                <span>Políticas de Privacidad | © 2020 Jose Francisco Sandoval. Todos los Derechos Reservados</span>
+                                <span>Políticas de Privacidad | © 2020 Joaquin Jáuregui. Todos los Derechos Reservados</span>
                             </div>
                             <div className="col-md-4 col-sm-2 col-12">
                                 <ul className="socialListFooter">

@@ -45,37 +45,7 @@ const services = [
         icon: 'icon-f123',
         title: 'Comunicación y Prensa',
         content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f124',
-        title: 'Marketing',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f125',
-        title: 'Adquisición de Negocios',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f126',
-        title: 'Fusión de Empresas',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f127',
-        title: 'Due Diligence',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f128',
-        title: 'Modelos Industriales',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f129',
-        title: 'Energía Alternativa',
-        content: 'There are many variations of passages of Lorem '
-    },
+    }
 ]
 
 const breadcumbMenu = [

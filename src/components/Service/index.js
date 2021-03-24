@@ -2,11 +2,11 @@ import React from 'react'
 import './style.scss'
 
 const services = [
-    { icon: 'icon-f100', subtitle: 'Derecho', title: 'Corporativo' },
-    { icon: 'icon-f101', subtitle: 'Propiedad', title: 'Industrial' },
-    { icon: 'icon-f102', subtitle: 'Propiedad', title: 'Intelectual' },
-    
+    { icon: 'icon-f100', subtitle: 'Judgement', title: 'Civil' },
+    { icon: 'icon-f101', subtitle: 'Judgement', title: 'Commercial' },
+    { icon: 'icon-f102', subtitle: 'Judgement', title: 'Amparo' },
 ]
+
 const Service = props => {
     return (
         <div className={props.className}>
@@ -19,8 +19,8 @@ const Service = props => {
                                     <i className={service.icon}></i>
                                 </div>
                                 <div className="serviceText">
-                                    <span>{service.subtitle}</span>
                                     <h3>{service.title}</h3>
+                                    <span>{service.subtitle}</span>
                                 </div>
                             </div>
                         </div>

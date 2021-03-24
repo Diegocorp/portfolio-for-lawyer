@@ -27,17 +27,17 @@ const aboutText = [
 const heroSliders = [
     {
         images: 'slideWrapperOne',
-        title: 'Especialista en orientacion ',
-        subTitle: 'y asesoramiento legal.',
-        text: 'Jose Francisco Sandoval',
-        button: 'Contacto'
+        title: 'Legal advice and ',
+        subTitle: 'guidance specialist.',
+        text: 'Joaquin Jáuregui',
+        button: 'Contact'
     },
     {
         images: 'slideWrapperTwo',
-        title: 'Acompañamiento',
-        subTitle: 'legal personalizado.',
-        text: 'Jose Francisco Sandoval',
-        button: 'Contacto'
+        title: 'Personalized',
+        subTitle: 'legal support.',
+        text: 'Joaquin Jáuregui',
+        button: 'Contact'
     },
 ]
 
@@ -56,67 +56,7 @@ const services = [
         icon: 'icon-f105',
         title: 'Actas de Asamblea',
         content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f106',
-        title: 'Contratos de Confidencialidad',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f107',
-        title: 'Libros Corporativos',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f108',
-        title: 'Contratos en Materia Autoral',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f109',
-        title: 'Términos y Condiciones para Sitios Web',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f110',
-        title: 'Certificados de Licitud de Título y Contenido ',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f111',
-        title: 'Esquemas de Protección Accionaria',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f112',
-        title: 'Esquemas de Secreto Industrial',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f113',
-        title: 'Contratos de Franquicia',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f114',
-        title: 'Registro de Marca',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f115',
-        title: 'Registro de Patentes',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f116',
-        title: 'Transmisión de Derechos',
-        content: 'There are many variations of passages of Lorem '
-    },
-    {
-        icon: 'icon-f117',
-        title: 'Registro Nacional de Inversión Extranjera',
-        content: 'Cumplimieto de obligaciones '
-    },
+    }
 ]
 
 
@@ -140,15 +80,16 @@ const HomePageOne = () => {
             <Service className="serviceArea" />
             <About
                 className="aboutArea"
-                title="Nosotros"
+                title="About Us"
                 images={about}
                 signature={signature}
                 pragraphs={aboutText}
+                videoId="XxVg_s8xAms"
             />
             <ServiceArea
                 className="ourServiceArea ourServiceAreaStyleThree"
-                title="Nuestros Servicios"
-                subTitle="Área de Práctica"
+                title="Our Services"
+                subTitle="Practice area"
                 services={services}
             />
             <Testmonial
