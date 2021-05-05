@@ -20,8 +20,8 @@ import portfolio5 from '../../../images/studies/5.jpg'
 import './style.scss'
 
 const aboutText = [
-    { text: 'bakjdsf jajlkdsal jljhasdh ashjdl asld hsalkd hlasdh lkashd lksahd klsad kloasjd sahljd aslhk dlksad lsakd klasjdl kaskl.' },
-    { text: 'kjdsagdhjsajhigd aksd jkasdgh ksa jgdaskjgdkj asdjkaskj daskj d askjd ksajd hkuasd hjksah dkasjh d kasjd jkasdj sakjd askjd kjasd kjasdh ksah dkashd ksah dkashk djsak dhksad hksah dksa hkdsajk.' },
+    { text: 'We are the leading law firm in meeting the litigation objectives resolved in favor of our clients, we are a team of lawyers specialized in civil and commercial law.' },
+    { text: 'Experts in resolving any controversy on rights acquired by foreigners in trusts, condominiums, land located on beaches and coastlines, with the experience of having advised different fiduciary departments in banking institutions, our work is guaranteed by contract between law firm and clients.' },
 ]
 
 const heroSliders = [
@@ -44,18 +44,18 @@ const heroSliders = [
 const services = [
     {
         icon: 'icon-f103',
-        title: 'Creación de Empresas',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Commercial Law',
+        content: 'Rights, relations, and conduct of persons and business engaged in commerce, merchandising, trade, and sales.'
     },
     {
         icon: 'icon-f104',
-        title: 'Contratos Mercantiles',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Commercial contracts',
+        content: 'Agreements between two or more parties on a commercial matter.'
     },
     {
         icon: 'icon-f105',
-        title: 'Actas de Asamblea',
-        content: 'There are many variations of passages of Lorem '
+        title: 'Civil Law',
+        content: 'The law relating to civil wrongs and quasi-contracts is part of the civil law, as is law of property.'
     }
 ]
 

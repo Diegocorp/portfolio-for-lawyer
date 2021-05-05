@@ -32,7 +32,7 @@ class HeroSlider extends Component {
                                         <p>{slider.text}</p>
                                         <h2><span>{slider.title}</span> <span>{slider.subTitle}</span></h2>
                                         <div className="btnStyle btnStyle3 btnStyleRomo">
-                                            <a href="#">{slider.button}</a>
+                                            <a href="/contact">{slider.button}</a>
                                         </div>
                                     </div>
                                 </div>

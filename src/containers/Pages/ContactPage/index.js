@@ -33,22 +33,22 @@ const ContactPage = () => {
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="contactUsInfo">
-                                <h3>Contáctanos</h3>
-                                <p>Nuestro equipo es especialista en orientar y asesorar con orden, precision y acompañamiento personalizado en todos los servicios legales requeridos.
-                                </p>
-                                <h4>Dirección</h4>
-                                <span>Calzada La Misión 210, Misión del Campanario, Aguascalientes, Ags.
-</span>
-                                <h4>Teléfono</h4>
-                                <span>449 116 05 86</span>
-                                
+                                <h3>Contact</h3>
+                                <p>Our team is specialized in guiding and advising with order, precision and personalized accompaniment in all the legal services required. </p>
+                                <h4>Address</h4>
+                                <span>Av. Fco. I. Madero y Aquiles Serdan #192 Esq., Puerto Peñasco, Sonora, México.</span>
+                                <h4>Office phone</h4>
+                                <span>(638) 383-59-02</span>
+                                <h4>Cell phones</h4>
+                                <span>044 (638) 380-60-91</span>
+                                <span>044 (638) 105-88-41</span>
                                 <h4>Email</h4>
-                                <span>fernanda@romosalcedo.com</span>
+                                <span>joaquinjaureguimercado@gmail.com</span>
                             </div>
                         </div>
                         <div className="col-lg-7">
                             <div className="contactUSForm">
-                                <h3>Forma de Contácto</h3>
+                                <h3>Contact Form</h3>
                                 <Form
                                     addressInfo={true}
                                 />

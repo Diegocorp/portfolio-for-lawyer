@@ -7,22 +7,13 @@
         align-items: center;
         .logo {
             padding: 10px 0px;
-            @media (max-width:800px) {
-                padding: 15px 0;
+            @media only screen and (max-width:768px)  {
+                padding: 15px 0px;
                 margin-top: 0;
             }
             img{
-                @media (max-width:1024px) {
-                    height: unset;
-                }
-                @media (max-width:768px) {
-                    height: 50px;
-                }
-                @media (max-width:767px) {
-                    height: 40px;
-                }
-                @media (max-width:400px) {
-                    height: unset;
+                @media only screen and (max-width:768px)  {
+                    height: 100%;
                 }
             }
         }
@@ -43,18 +34,15 @@
                 }
                 a{
                     display: block;
-                    font-size: 20px;
+                    font-size: 28px;
                     font-weight: 400;
                     color:black;
                     letter-spacing: 0;
-                    padding: 55px 0px;
+                    padding: 60px 10px;
                     text-transform: uppercase;
                     cursor: pointer;
                     i{
                         display: none;
-                    }
-                    @media (max-width:1200px) {
-                        font-size: 14px;
                     }
                     &.active{
                         color: #c0b596;

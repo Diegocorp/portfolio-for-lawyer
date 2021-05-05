@@ -32,8 +32,6 @@ const HeaderBottom = props => {
                         <div className={responsive ? "col-lg-8 responsiveWrapper active" : "col-lg-8 responsiveWrapper"}>
                             <ul className="mainMenuWrap">
                                 <li><NavLink exact to='/'>Home</NavLink></li>
-                                <li><NavLink exact to='/about'>About Us</NavLink></li>
-                                <li><NavLink exact to='/practice'>Services</NavLink></li>
                                 <li><NavLink exact to='/team'>Team</NavLink></li>
                                 <li><NavLink exact to='/contact'>Contact</NavLink></li>
                             </ul>

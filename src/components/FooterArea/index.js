@@ -5,28 +5,25 @@ import './style.scss'
 const footerLinks = [
     {
         title: 'Menú', menus: [
-            { name: 'Inicio', route: '/' },
-            { name: 'Nosotros', route: 'practice' },
             { name: 'Equipo', route: 'team' },
-            { name: 'Servicios', route: 'case' },
-            { name: 'Contacto', route: 'blog' },
+            { name: 'Contacto', route: 'contact' },
         ]
     },
     {
-        title: 'Especialidad Legal', menus: [
-            { name: 'Derecho Corporativo', route: 'home' },
-            { name: 'Propiedad Industrial', route: 'home' },
-            { name: 'Propiedad Intelectual', route: 'home' },
+        title: 'Legal Specialty', menus: [
+            { name: 'Commercial Law' },
+            { name: 'Commercial contracts' },
+            { name: 'Civil Law' },
 
         ]
     },
     {
-        title: 'Contáctanos', menus: [
-            { name: 'Calzada La Misión 210' },
-            { name: 'Misión del Campanario', },
-            { name: 'Aguascalientes, Ags.', },
-            { name: 'T. 449 116 05 86', },
-            { name: 'Email: fernanda@romosalcedo.com', },
+        title: 'Contact us', menus: [
+            { name: 'Av. Fco. I. Madero y' },
+            { name: 'Aquiles Serdan #192 Esq.,', },
+            { name: 'Puerto Peñasco, Sonora, México', },
+            { name: 'T. (638) 383-59-02', },
+            { name: 'Email: joaquinjaureguimercado@gmail.com', },
         ]
     },
 ]
@@ -42,7 +39,7 @@ const FooterArea = () => {
                                 <Link to="/">
                                     <img src={logo} alt="" />
                                 </Link>
-                                <p>10 años especializados en Derecho Corporativo, Propiedad Industrial e Intelectual.</p>
+                                <p>More than 30 years of experience in commercial and civil law.</p>
                             </div>
                         </div>
                         {footerLinks.map((menu, i) => (
@@ -65,7 +62,7 @@ const FooterArea = () => {
                     <div className="footerBottomContent">
                         <div className="row">
                             <div className="col-md-8 col-sm-10 col-12">
-                                <span>Políticas de Privacidad | © 2020 Joaquin Jáuregui. Todos los Derechos Reservados</span>
+                                <span>Privacy Policy | © 2020 Joaquin Jauregui. All Rights Reserved.</span>
                             </div>
                             <div className="col-md-4 col-sm-2 col-12">
                                 <ul className="socialListFooter">
