@@ -5,8 +5,8 @@ import './style.scss'
 const footerLinks = [
     {
         title: 'Menú', menus: [
-            { name: 'Equipo', route: 'team' },
-            { name: 'Contacto', route: 'contact' },
+            { name: 'Team', route: 'team' },
+            { name: 'Contact', route: 'contact' },
         ]
     },
     {

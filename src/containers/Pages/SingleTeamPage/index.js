@@ -25,7 +25,7 @@ const breadcumbMenu = [
 ]
 const teamMembarInfo = [
     { level: 'Positon: ', text: 'Siniour Lawyer' },
-    { level: 'Practice Area: ', text: 'Family Lawyer, Criminal Defence, Personal Injury' },
+    { level: 'Practice Area: ', text: 'Commercial law, Commercial contracts, Civil law' },
     { level: 'Experience: ', text: '33 Years' },
     { level: 'Address: ', text: 'Av. Fco. I. Madero y Aquiles Serdan #192 Esq., Puerto Peñasco, Sonora, México.' },
     { level: 'Office phone: ', text: '044 (638) 383-59-02' },
