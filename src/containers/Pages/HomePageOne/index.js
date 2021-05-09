@@ -72,7 +72,7 @@ const HomePageOne = () => {
     return (
         <Fragment>
             <header className="headerArea">
-                <HeaderBotton className="headerBottomArea" />
+                <HeaderBotton className="headerBottomArea"/>
             </header>
             <HeroSlider 
                 sliders={heroSliders}

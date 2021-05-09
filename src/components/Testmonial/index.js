@@ -51,9 +51,6 @@ const Testmonial = ({ className }) => {
                                     <div key={i} className="slideItem">
                                         <p>{slider.text}</p>
                                         <div className="thumbWrap">
-                                            <div className="thumbImg">
-                                                <img src={slider.images} alt="" />
-                                            </div>
                                             <div className="imgContent">
                                                 <h4>{slider.title}</h4>
                                                 <span>{slider.subTitle}</span>
