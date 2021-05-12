@@ -1,31 +1,37 @@
-import React from 'react'
-import './style.scss'
-const HeaderTop = props => {
-    return (
-        <div className={props.className}>
-            <div className="container">
-                <div className="headerTopMainWrapper">
-                    <div className="row">
-                        <div className="col-md-3 col-sm-12 col-12 col-lg-5">
-                            <ul className="d-flex accountLoginArea">
-                                <li><i className="fa fa-map-marker" aria-hidden="true"></i>Calz. La Misión 210, Misión del Campanario, Ags.</li>
-                            </ul>
-                        </div>
-                        <div className="col-md-6 col-sm-12 col-12 col-lg-5">
-                            <ul className="headerContact">
-                                <li><i className="fa fa-envelope"></i> fernanda@romosalcedo.com</li>
-                                <li><i className="fa fa-hourglass"></i> 9:30 AM - 2:00 PM</li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-2 col-md-3 col-sm-12">
-                            <div className="btnStyle btnStyle2 text-right">
-                                <a href="#">Contáctanos</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
-}
-export default HeaderTop
+import React from "react";
+import { Grid, Button, Hidden } from "@material-ui/core";
+import PhoneOutlinedIcon from "@material-ui/icons/PhoneOutlined";
+import QueryBuilderOutlinedIcon from "@material-ui/icons/QueryBuilderOutlined";
+import RoomOutlinedIcon from "@material-ui/icons/RoomOutlined";
+import "./style.scss";
+
+const HeaderTop = (props) => {
+  return (
+    <Grid className={props.className}>
+      <Grid
+        container
+        alignItems="center"
+        className="container headerTopMainWrapper"
+      >
+        <Grid item sm={6} md={5} lg={5} xs={12}>
+          <ul className="d-flex accountLoginArea">
+            <li>
+              <RoomOutlinedIcon /> Av. Fco. I. Madero y Aquiles Serdan #192 Esq.
+            </li>
+          </ul>
+        </Grid>
+        <Grid item sm={6} md={4} lg={5} xs={12}>
+          <ul className="headerContact">
+            <li>
+              <PhoneOutlinedIcon /> 044 (638) 380-60-91
+            </li>
+            <li>
+              <QueryBuilderOutlinedIcon /> 9AM - 9PM
+            </li>
+          </ul>
+        </Grid>
+      </Grid>
+    </Grid>
+  );
+};
+export default HeaderTop;

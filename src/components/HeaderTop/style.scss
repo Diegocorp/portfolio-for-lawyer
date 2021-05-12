@@ -1,101 +1,104 @@
-.headerArea{
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display:400,700");
+
+.headerArea {
+  .headerTop {
+    .headerTopMainWrapper {
+      border-bottom: 1px solid #c0b596;
+      padding: 10px 0;
+
+      @media (max-width: 1200px) {
+        padding: 10px 16px;
+      }
+    }
+
+    background: white;
+
+    ul {
+      display: flex;
+      align-content: center;
+
+      li {
+        color: black;
+        font-size: 14px;
+        color: black;
+        display: flex;
+        text-align: center;
+
+        &:last-child {
+          padding-right: 0;
+        }
+
+        svg {
+          padding-right: 5px;
+          color: #cbbc99;
+          font-size: 18px;
+        }
+      }
+    }
+
+    .headerContact {
+      justify-content: flex-end;
+      margin-right: 20px;
+
+      li {
+        &::before {
+          content: "|";
+          color: rgba(255, 255, 255, 0.07);
+          margin: 0px 15px;
+        }
+
+        &:first-child {
+          &::before {
+            display: none;
+          }
+        }
+
+        svg {
+          margin-right: 7px;
+        }
+      }
+    }
+
+    .btnStyle {
+      @media (max-width: 576px) {
+        text-align: center !important;
+      }
+    }
+
+    .btnStyle {
+      a {
+        background: transparent;
+        font-size: 14px;
+        font-weight: 700;
+        color: black;
+        padding: 9px 15px;
+        border: 2px solid #c0b596;
+        border-radius: 47px;
+        text-transform: capitalize;
+
+        @media (max-width: 1024px) {
+          font-size: 12px;
+          padding: 9px;
+        }
+      }
+    }
+  }
+
+  &.headerAreaStyleThree {
     .headerTop {
-        .headerTopMainWrapper{
-            border-bottom: 1px solid rgba(255,255,255,.07);
-            padding: 10px 0;
-        }
-        background: #7a0d2e;
-        ul{
-            text-align: right;
-            @media (max-width:576px) {
-                text-align: center;
-            }
-            li{
-                display: inline-block;
-                padding: 15px;
-                color: #fff;
-                font-size: 15px;
-                color: #e0e0e0;
-                &:first-child{
-                    position: relative;
-                    padding-left: 0;
-                    &::before{
-                        position: absolute;
-                        content: "";
-                        right: 0;
-                        top: 14px;
-                        width: 1px;
-                        height: 25px;
-                        background: rgba(255,255,255,.07);
-                    }
-                    
-                }
-                &:last-child{
-                    padding-right: 0;
-                }
-                i{
-                    padding-right: 10px;
-                    color: #cbbc99;
-                    
-                }
-            }
-            &.accountLoginArea{
-                @media (max-width:576px) {
-                    justify-content: center!important;
-                }
-                li{
-                    padding-left: 0;
-                    @media (max-width:768px) {
-                       padding: 0;
-                    }
-                    &::before{
-                        display: none;
-                    }
-                }
-                
-            }
-        }
+      background: transparent;
+      padding: 0;
+
+      .headerTopMainWrapper {
+        padding: 10px 15px;
+        background: #d1d2d8;
+
         .btnStyle {
-            @media (max-width:576px) {
-                text-align: center!important;
-            }
+          a {
+            padding: 9px 13px;
+          }
         }
-        .btnStyle{
-            a{
-                background: transparent;
-                font-size: 14px;
-                font-weight: 700;
-                color: #fff;
-                padding: 9px 15px;
-                border: 2px solid #c0b596;
-                border-radius: 47px;
-                text-transform: capitalize;
-                @media (max-width:1024px) {
-                    font-size: 12px;
-                    padding: 9px;
-                }
-            }
-        }
+      }
     }
-    &.headerAreaStyleThree{
-        .headerTop{
-            background: transparent;
-            padding: 0;
-            @media (max-width:768px) {
-                background: #333333;
-            }
-            .headerTopMainWrapper{
-                padding: 10px 15px;
-                background: #333333;
-                @media (max-width:768px) {
-                    padding: 10px 0;
-                }
-                .btnStyle {
-                    a{
-                        padding: 9px 13px;
-                    }
-                }
-            }
-        }
-    }
+  }
 }
