@@ -34,7 +34,7 @@ const teamMembarInfo = [
   { level: "Email: ", text: "joaquinjaureguimercado@gmail.com" },
 ];
 const teamContents = [
-  "University: Universidad del Estado de Sonora, Bachelor of Laws. (Degree)",
+  "University: Universidad de Sonora, Bachelor of Laws. (Degree)",
   "High School: Instituto Alberto Sotelo, in the city of Caborca, Sonora.",
 ];
 
@@ -80,28 +80,6 @@ const SingleTeamPage = () => {
                           {teamInfo.text}
                         </li>
                       ))}
-                    </ul>
-                    <ul className="socialShare">
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-linkedin"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i className="fa fa-google-plus"></i>
-                        </a>
-                      </li>
                     </ul>
                   </div>
                 </div>

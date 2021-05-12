@@ -148,7 +148,7 @@ class Form extends Component {
     return (
       <form
         action="https://formsubmit.co/diegosanvx@email.com"
-        onSubmit={this.submitHandler}
+        /* onSubmit={this.submitHandler} */
         className="contactForm"
         method="POST"
       >
