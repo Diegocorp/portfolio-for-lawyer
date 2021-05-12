@@ -1,18 +1,13 @@
 import React, { Fragment } from "react";
-import HeaderBotton from "../../../components/HeaderBottom";
-import HeaderTop from "../../../components/HeaderTop";
+
 import Breadcumb from "../../../components/Breadcumb";
-import NewsLetter from "../../../components/Newsletter";
+
 import FooterArea from "../../../components/FooterArea";
-import Portfolio from "../../../components/Portfolio";
-import ContactArea from "../../../components/ContactArea";
 import Header from "../../../components/Header";
 import HeaderT from "../../../components/HeaderTop";
 // images
 import breadcumb from "../../../images/breadcumb/1.jpg";
 import team1 from "../../../images/Attorneys-single/t1.jpg";
-import team2 from "../../../images/Attorneys-single/t2.jpg";
-import team3 from "../../../images/Attorneys-single/t3.jpg";
 import portfolio1 from "../../../images/studies/1.jpg";
 import portfolio2 from "../../../images/studies/2.jpg";
 import portfolio3 from "../../../images/studies/3.jpg";
