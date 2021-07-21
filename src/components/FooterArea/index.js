@@ -73,7 +73,7 @@ const FooterArea = () => {
             <div className="row">
               <div className="col-md-8 col-sm-10 col-12">
                 <span>
-                  Privacy Policy | © 2020 Joaquin Jauregui. All Rights Reserved.
+                  Privacy Policy | © 2019 Joaquin Jauregui. All Rights Reserved.
                 </span>
               </div>
               <div className="col-md-4 col-sm-2 col-12">
@@ -87,7 +87,7 @@ const FooterArea = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/diego-sandoval-83856a212/">
                       <i className="fa fa-linkedin" aria-hidden="true"></i>
                     </a>
                   </li>
