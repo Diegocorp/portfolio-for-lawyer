@@ -79,7 +79,16 @@ const FooterArea = () => {
               <div className="col-md-4 col-sm-2 col-12">
                 <ul className="socialListFooter">
                   <p>
-                    Developed by <b>Diego Sandoval</b>
+                    Developed by{" "}
+                    <b>
+                      <a
+                        href="https://www.diegosandoval.tech/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        Diego Sandoval
+                      </a>
+                    </b>
                   </p>
                   <li>
                     <a href="https://github.com/Diegocorp?tab=overview&from=2021-05-01&to=2021-05-12">
